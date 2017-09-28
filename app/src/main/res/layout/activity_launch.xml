@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Language Centre"
+        android:textColor="#1A237E"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Learn Spanish"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:onClick="spanish"
+        android:background="@android:color/holo_red_dark"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Learn French"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:onClick="french"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Search Translations"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:onClick="search"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
